@@ -4,7 +4,8 @@ import torch.nn as nn
 from openstl.modules import DownSample, UpSample, STconvert
 
 class SwinLSTM_D_Model(nn.Module):
-    r"""SwinLSTM 
+    r"""SwinLSTM
+
     Implementation of `SwinLSTM: Improving Spatiotemporal Prediction Accuracy using Swin
     Transformer and LSTM <http://arxiv.org/abs/2308.09891>`_.
 
